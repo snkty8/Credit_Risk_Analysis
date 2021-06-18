@@ -6,6 +6,10 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ## Results
 
+Imbalanced classification reportes were created for each training model: RandomOverSampler, SMOTE, ClusterCentroids, SMOTEEN, BalancedRandomForestClassifier, and EasyEnsembleClassifier. These were created in Jupyter Notebook. Training variables were created by converting the string values into numerical ones using the get_dummies method. Then the LogisticRegression classifier to make predictions, calculate the accuracy score, and generate a confusion matrix.  Finally, the imbalanced classification report was created using the test data and predictions.
+
+- Over Sampling 
+
 - RandomOverSampler
     - Accuracy: 66%
     - High Risk Precision: 1%
@@ -35,6 +39,7 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ![image](https://github.com/snkty8/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.png)
 
+- Undersampling
 
 - SMOTEEN
     - Accuracy: 54%
@@ -45,6 +50,8 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
 
 ![image](https://github.com/snkty8/Credit_Risk_Analysis/blob/main/Images/SMOTEEN.png)
 
+
+- Combination
 
 - BalancedRandomForestClassifier
     - Accuracy: 78%
@@ -64,3 +71,6 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
     - Low Risk Recall: 94%
 
 ![image](https://github.com/snkty8/Credit_Risk_Analysis/blob/main/Images/EasyEnsembleClassifier.png)
+
+
+## Summary
