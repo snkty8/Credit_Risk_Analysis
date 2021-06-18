@@ -43,6 +43,8 @@ Credit risk is an inherently unbalanced classification problem, as good loans ea
     - Low Risk Precision: 100%
     - Low Risk Recall: 57%
 
+![image](https://github.com/snkty8/Credit_Risk_Analysis/blob/main/Images/SMOTEEN.png)
+
 
 - BalancedRandomForestClassifier
     - Accuracy: 78%
