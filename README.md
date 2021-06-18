@@ -1,1 +1,5 @@
 # Credit_Risk_Analysis
+
+## Overview 
+
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans.  In this project, we will need to employ different techniques to train and evaluate models with unbalanced classes.  We have been asked to use imbalanced-learn and scikit-learn libraries to build and evaulate models using resampling.  Using the credit dataset from LendingClub, a peer to peer lending services company, we will oversample the data using RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then we will use a combinatorial apporoach of over and undersampling using the SMOTEEN algorithm. Next, we well compare the two machine learning models that reduces bias, BalaceRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk.  Once done, we will evlauate the performance of these models and make a written recommendation on whether they should be used to predict credit risk. 
