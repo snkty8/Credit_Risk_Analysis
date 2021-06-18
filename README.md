@@ -74,4 +74,4 @@ Imbalanced classification reportes were created for each training model: RandomO
 
 
 ## Summary
- 
+The purpose of this project was to determine if these models could be used to accurately predict credit risk. All three of the oversampling models had an accurary of 66%, undersampling yielded an accuracy of 54%, and using a combination of the undersampling and oversampling yielded 78% and 92%.  While undersampling yielded a higher level of accurary than undersamling, the combination model EasyEnsembleClassifier had the highest level of accuracy of 92%. But, accuracy isn't the only metric we should relay on. We also have to take a look at precison and recall.  Although the low risk precision in all models were 100%, the high precision was 1% in the oversampling and undersampling models, 3% in BalancedForestClassifier, and 9% in EasyEnsembleClassifer. Sensitivity is the metric we could depend most on. This is the metric that does accurately describe the situation. The EasyEnsembleClassifier model is still the most reliable when determining credit risk. 
